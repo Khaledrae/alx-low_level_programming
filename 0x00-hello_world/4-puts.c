@@ -1,6 +1,9 @@
 #include<stdio.h>
-
-int main(void){
- putchar("Programming is like building a multilingual puzzle \n");
- return 0;
+/*
+ * Main function
+ * /
+int main(void)
+{
+put("Programming is like building a multilingual puzzle \n");
+return (0);
 }
