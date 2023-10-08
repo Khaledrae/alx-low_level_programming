@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(n)
 {
 if (n > 0)
 printf("%i is positive\n", n);
