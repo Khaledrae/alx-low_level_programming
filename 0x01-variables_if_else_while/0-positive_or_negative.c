@@ -10,10 +10,10 @@ int main(void)
 {
 int n = rand();
 if (n > 0)
-printf("is positive\n");
+printf("%li is positive\n", n);
 else if (n < 0)
-printf("is negative\n");
+printf("%li is negative\n", n);
 else
-printf("is zero\n");
+printf("%d is zero\n", n);
 return (0);
 }
