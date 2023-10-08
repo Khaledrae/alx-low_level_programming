@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-int n = rand() % 101;
 if (n > 0)
 printf("%i is positive\n", n);
 else if (n < 0)
