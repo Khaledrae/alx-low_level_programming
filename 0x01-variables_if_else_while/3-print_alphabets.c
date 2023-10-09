@@ -11,7 +11,7 @@ char biggz = 'A';
 while (biggz <= 'Z')
 {
 putchar(smallz);
-putchar(biggz)
+putchar(biggz);
 smallz++;
 biggz++;
 }
