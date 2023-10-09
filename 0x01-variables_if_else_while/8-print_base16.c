@@ -17,7 +17,7 @@ putchar('0' + letter);
 letter++;
 }
 letter = 'a';
-while(letter <= 'f')
+while (letter <= 'f')
 {
 putchar(letter);
 letter++;

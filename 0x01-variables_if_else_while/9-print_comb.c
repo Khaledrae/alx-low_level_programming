@@ -13,8 +13,11 @@ letter = 0;
 while (letter < 10)
 {
 putchar('0' + letter);
+if(letter<9)
+{
 putchar(',');
 putchar(' ');
+}
 letter++;
 }
 putchar('\n');
