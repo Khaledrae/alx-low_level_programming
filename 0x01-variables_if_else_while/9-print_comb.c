@@ -8,12 +8,15 @@
  */
 int main(void)
 {
-int letter = 0;
+int letter;
+letter = 0;
 while (letter < 10)
 {
-printf("%i", letter);
+putchar(letter);
+putchar(",");
+putchar(" ");
 letter++;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }

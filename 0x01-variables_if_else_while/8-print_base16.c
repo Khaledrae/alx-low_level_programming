@@ -8,12 +8,19 @@
  */
 int main(void)
 {
-int letter = 0;
-while (letter < 10)
+char letter = 'a';
+while (letter <= 'z')
 {
-printf("%i", letter);
+putchar(letter);
 letter++;
 }
-printf("\n");
+letter = 'a';
+while(letter<='f')
+{
+putchar(letter);
+letter++;
+}
+putchar('\n');
+
 return (0);
 }
