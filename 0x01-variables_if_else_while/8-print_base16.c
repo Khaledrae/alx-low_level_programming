@@ -13,7 +13,7 @@ letter = 0;
 while (letter < 10)
 
 {
-putchiar('0' + letter);
+putchar('0' + letter);
 letter++;
 }
 letter = 'a';
