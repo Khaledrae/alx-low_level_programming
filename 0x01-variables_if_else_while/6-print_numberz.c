@@ -11,7 +11,7 @@ int main(void)
 int letter = 0;
 while (letter < 10)
 {
-putchar((char)(letter+'0'));
+putchar('letter');
 printf("%i\n", letter);
 letter++;
 }

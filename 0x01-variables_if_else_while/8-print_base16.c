@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+char letter;
+letter = 0;
+while (letter < 10)
 {
 putchar(letter);
 letter++;
 }
 letter = 'a';
-while(letter<='f')
+while(letter <= 'f')
 {
 putchar(letter);
 letter++;
