@@ -11,8 +11,11 @@ char biggz = 'A';
 while (biggz <= 'Z')
 {
 putchar(smallz);
-putchar(biggz);
 smallz++;
+}
+while (biggz <= 'Z')
+{
+putchar(biggz);
 biggz++;
 }
 putchar('\n');
