@@ -14,6 +14,6 @@ while (letter < 10)
 putchar('0' + letter);
 letter++;
 }
-
+putchar('\n');
 return (0);
 }
