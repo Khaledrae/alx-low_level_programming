@@ -8,7 +8,7 @@ int main(void)
 {
 char smallz = 'a';
 char biggz = 'A';
-while (biggz <= 'Z')
+while (smallz <= 'z')
 {
 putchar(smallz);
 smallz++;
