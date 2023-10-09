@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-int letter = 0;
-while (letter < 10)
+char letter = 'z';
+while (letter <= 'a')
 {
-putchar((char)(letter+'0'));i
-printf("%i\n", letter);
-letter++;
+putchar(letter);
+letter--;
 }
+putchar('\n');
 
 return (0);
 }
