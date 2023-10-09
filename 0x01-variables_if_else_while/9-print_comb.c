@@ -14,7 +14,7 @@ while (letter < 10)
 {
 putchar(letter);
 putchar(',');
-putchar(" ");
+putchar(' ');
 letter++;
 }
 putchar('\n');
