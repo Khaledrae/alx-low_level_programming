@@ -15,7 +15,7 @@ putchar(biggz);
 smallz++;
 biggz++;
 }
-puthar('\n');
+putchar('\n');
 
 return (0);
 }
