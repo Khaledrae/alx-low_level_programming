@@ -8,16 +8,12 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+int letter = 0;
+while (letter < 10)
 {
-if (letter != 'q' && letter != 'e')
-{
-putchar(letter);
-}
+printf("letter\n");
 letter++;
 }
-putchar('\n');
 
 return (0);
 }
