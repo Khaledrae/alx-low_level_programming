@@ -12,7 +12,7 @@ int letter;
 letter = 0;
 while (letter < 10)
 {
-putchar(letter);
+putchar('0' + letter);
 putchar(',');
 putchar(' ');
 letter++;

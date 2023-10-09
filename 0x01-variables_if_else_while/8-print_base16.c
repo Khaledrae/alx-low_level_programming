@@ -10,9 +10,10 @@ int main(void)
 {
 int letter;
 letter = 0;
-while (letter <= 10)
+while (letter < 10)
+
 {
-putchar('0'+letter);
+putchar('0' + letter);
 letter++;
 }
 letter = 'a';
