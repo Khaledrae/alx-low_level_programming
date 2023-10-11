@@ -6,13 +6,7 @@
  */
 int main(void)
 {
-int c;
-if (_islower(c)==true)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+int c, d;
+d = _islower(c);
+return (d);
 }
