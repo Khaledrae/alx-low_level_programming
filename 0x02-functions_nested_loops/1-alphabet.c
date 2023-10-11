@@ -2,7 +2,7 @@
 /**
  *print_alphabet- Entry point
  *
- *Return: void Always 
+ *Return: void Always
  */
 void print_alphabet(void)
 {
