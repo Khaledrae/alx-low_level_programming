@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_isalpha - Entry point
+ *_isalpha - Checks For Alphabets
  *@c: A random character
  *Return: int Always
  */
-int _isalpha(int c)
+int _isalpha(int c) 
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
