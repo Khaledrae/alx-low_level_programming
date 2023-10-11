@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  *_isalpha - Entry point
- *@n: A random character
+ *@c: A random character
  *Return: int Always
  */
-int _isalpha(int n)
+int _isalpha(int c)
 {
-if ((n >= 'a' && n <= 'z') || (n >= 'A' && n <= 'Z'))
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 return (1);
 }
