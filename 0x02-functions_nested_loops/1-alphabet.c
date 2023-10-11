@@ -11,7 +11,7 @@ void c;
 c = 'a';
 while(c<='z')
 {
-_print_alphabet(c);
+print_alphabet(c);
 c++;
 }
 print_alphabet('\n');
