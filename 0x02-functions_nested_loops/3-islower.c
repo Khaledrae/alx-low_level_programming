@@ -4,9 +4,10 @@
  *
  *Return: void Always
  */
-int main(void)
-{
-int c, d;
-d = _islower(c);
+int _islower(int c);
+if (c >= 'a' && c <= 'z')
+return (1);
+else
+return (0);
 return (d);
 }
