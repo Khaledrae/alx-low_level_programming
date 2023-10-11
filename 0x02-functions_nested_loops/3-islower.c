@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_islower - Entry point
- *c: A random letter
+ *@parameterc: A random letter
  *Return: int Always
  */
 int _islower(int c)
