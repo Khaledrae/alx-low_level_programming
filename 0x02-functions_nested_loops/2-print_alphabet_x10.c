@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  *print_alphabet_x10 - Entry point
  *
- *Return: void Always 
+ *Return: void Always
  */
 void print_alphabet_x10(void)
 {
@@ -17,7 +16,7 @@ while (c <= 'z')
 _putchar(c);
 c++;
 }
-}
 _putchar('\n');
+}
 
 }
