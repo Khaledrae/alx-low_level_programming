@@ -11,9 +11,9 @@ void c;
 c = 'a';
 while(c<='z')
 {
-print_alphabet(c);
+_putchar(c);
 c++;
 }
-print_alphabet('\n');
+_putchar('\n');
 return (0);
 }
