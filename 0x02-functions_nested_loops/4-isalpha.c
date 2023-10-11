@@ -2,7 +2,8 @@
 /**
  *_isalpha - Checks For Alphabets
  *@c: A random character
- *Return: int Always
+ *
+ *Return: 1 if character is a letter else 0
  */
 int _isalpha(int c) 
 {
