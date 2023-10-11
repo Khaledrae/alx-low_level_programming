@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  *print_sign - Entry point
  *@n: A random character
