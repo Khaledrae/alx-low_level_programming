@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_abs - Entry point
+ *print_last_digit - Entry point
  *@n: Number to get absolute for
  *
- *Return: Absolute number of passed figure
+ *Return: Last digit value
  */
 int print_last_digit(int n)
 {
