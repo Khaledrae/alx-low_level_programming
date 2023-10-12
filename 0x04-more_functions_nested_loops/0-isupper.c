@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *_isupper: entry point
- *
+ *_isupper - entry point
+ *@c: The character to be checked
  *Return: (0) Always
  */
 int _isupper(int c)
