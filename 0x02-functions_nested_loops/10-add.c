@@ -1,6 +1,6 @@
-include "main.h"
+#include "main.h"
 /**
- *int add(int, int);
+ *add - generates the sum of two numbers
  *@a: First Integer
  *@b: second integer
  *
@@ -8,5 +8,5 @@ include "main.h"
  */
 int add(int a, int b)
 {
-return (a+b);
+return (a + b);
 }
