@@ -5,14 +5,8 @@
  *
  *Return: Absolute number of passed figure
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
-if (n > 0)
-{
-return (n);
-}
-else
-{
-return (-n);
-}
+n = n%10;
+return n;
 }
