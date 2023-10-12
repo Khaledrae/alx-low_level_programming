@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *void print_to_98 - Prints to 98 from a given number
- *
+ *print_to_98 - Prints to 98 from a given number
+ *@n: the set limit
  *Return: Void
  */
 void print_to_98(int n)
