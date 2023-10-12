@@ -12,6 +12,8 @@ if(n >= 98)
 for(i = n; i >= 98; i--)
 {
 _putchar('0'+i);
+_putchar(',');
+_putchar(' ');
 }
 }
 else
@@ -19,6 +21,8 @@ else
 for(i = n; i <= 98; i++)
 {
 _putchar('0'+i);
+_putchar(',');
+_putchar(' ');
 }
 }
 }
