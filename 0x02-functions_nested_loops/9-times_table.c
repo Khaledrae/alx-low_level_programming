@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 /**
  *times_table - Math 9 table
  *Return Void
