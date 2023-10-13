@@ -12,7 +12,7 @@ for (i = 0; i <= 9; i++ )
 {
 for (i = 0; i <= 14; i++ )
 {
-_putchar(j+'0');
+_putchar('0'+j);
 }
 putchar('\n');
 }
