@@ -10,7 +10,7 @@ void print_most_numbers(void)
 int i, j;
 for (i = 0; i <= 9; i++ )
 {
-while (j <= 14)
+for (i = 0; i <= 14; i++ )
 {
 _putchar(j+'0');
 }
