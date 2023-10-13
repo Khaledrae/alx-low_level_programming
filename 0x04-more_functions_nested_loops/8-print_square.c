@@ -11,7 +11,7 @@ int i, j;
 /* height */
 for (i = 0; i <= size; i++)
 {
-if (i == 0 || i ==size)
+if (i == 0 || i == size)
 {
 _putchar('|');
 }
@@ -22,7 +22,7 @@ _putchar(' ');
 /* Width */
 for (j = 0; j <= size; j++)
 {
-if (j == 0 || j ==size)
+if (j == 0 || j == size)
 {
 _putchar('-');
 }
