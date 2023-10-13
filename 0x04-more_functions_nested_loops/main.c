@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <unistd.h>
+#include "10-print_triangle.c"
 /**
  *main - check the code
  *
