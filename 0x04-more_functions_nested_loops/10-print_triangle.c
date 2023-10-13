@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  *print_triangle - entry point
  *@size: The size of the triangle
