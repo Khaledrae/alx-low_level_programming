@@ -18,7 +18,7 @@ _putchar(' ');
 _putchar('\\');
 if (i == n - 1)
 {
-contiue;
+continue;
 }
 _putchar('\n');
 }
