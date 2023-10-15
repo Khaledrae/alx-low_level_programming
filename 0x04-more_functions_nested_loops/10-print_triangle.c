@@ -11,13 +11,15 @@ int w, h, hyp;
 /* Going Down */
 for (w = 1; w <= size; w++)
 {
+if (size <= 0)
+break;
 /* Sideways */
 for (h = 1; h <= size; h++)
 {
 hyp = size - h;
 /* spaces */
 if (hyp > 0 )
-_putchar(' ');
+_putchar('.');
 else
 _putchar('#');
 }
