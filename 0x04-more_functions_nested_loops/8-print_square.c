@@ -11,14 +11,6 @@ int i, j;
 /* height */
 for (i = 0; i <= size; i++)
 {
-if (i == 0 || i == size)
-{
-_putchar('|');
-}
-else
-{
-_putchar(' ');
-}
 /* Width */
 for (j = 0; j <= size; j++)
 {
