@@ -10,7 +10,10 @@ void print_triangle(int size)
 int w, h;
 /* Going Down */
 if (size <= 0)
+{
+_putchar('\n');
 return;
+}
 for (w = 1; w <= size; w++)
 {
 /* Sideways */
