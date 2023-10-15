@@ -24,7 +24,7 @@ for (j = 0; j <= size; j++)
 {
 if (j == 0 || j == size)
 {
-_putchar('-');
+_putchar('#');
 }
 else
 {
