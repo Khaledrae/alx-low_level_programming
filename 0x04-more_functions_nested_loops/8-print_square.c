@@ -18,6 +18,10 @@ break;
 for (j = 0; j < size; j++)
 {
 _putchar('#');
+if (i == size - 1)
+{
+continue;
+}
 }
 _putchar('\n');
 }
