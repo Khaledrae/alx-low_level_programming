@@ -16,7 +16,7 @@ break;
 /* Sideways */
 for (h = 1; h <= size - w; h++)
 {
-for (h = 1; h <= size - w; h++)
+for (h = 1; h <= size; h++)
 {
 _putchar('#');
 }
