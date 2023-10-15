@@ -9,6 +9,11 @@ int i, j;
 /* height */
 for (i = 0; i < size; i++)
 {
+if (size == 0)
+{
+_putchar('\n');
+break;
+}
 /* Width */
 for (j = 0; j < size; j++)
 {
