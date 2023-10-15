@@ -3,13 +3,11 @@
 /**
  *print_line - Prints a line
  *@n: The legnth of the line
- *
- *Returns void
  */
 void print_line(int n)
 {
 int i;
-if (i == 0 || i < 0)
+if (i <= 0)
 {
 _putchar('\n');
 return;
