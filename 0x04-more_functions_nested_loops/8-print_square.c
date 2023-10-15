@@ -14,14 +14,7 @@ for (i = 0; i <= size; i++)
 /* Width */
 for (j = 0; j <= size; j++)
 {
-if (j == 0 || j == size)
-{
 _putchar('#');
-}
-else
-{
-_putchar(' ');
-}
 }
 _putchar('\n');
 }
