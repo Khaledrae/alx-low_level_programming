@@ -14,15 +14,11 @@ for (w = 1; w <= size; w++)
 if (size <= 0)
 break;
 /* Sideways */
-for (h = 1; h <= size; h++)
+for (h = 1; h <= size - w; h++)
 {
-hyp = size - h;
-/* spaces */
-if (hyp > 0 )
-_putchar('.');
-else
+for (h = 1; h <= size - w; h++)
+{
 _putchar('#');
 }
 _putchar('\n');
-}
 }
