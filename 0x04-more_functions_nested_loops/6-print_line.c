@@ -12,7 +12,7 @@ int i;
 if (i == 0 || i < 0)
 {
 _putchar('\n');
-break;
+return;
 }
 for (i = 0; i < n; i++)
 {
