@@ -7,12 +7,12 @@
  */
 void print_triangle(int size)
 {
-int w, h, hyp;
+int w, h;
 /* Going Down */
+if (size <= 0)
+return;
 for (w = 1; w <= size; w++)
 {
-if (size <= 0)
-break;
 /* Sideways */
 for (h = 1; h <= size - w; h++)
 {
