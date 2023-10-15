@@ -16,11 +16,12 @@ for (w = 1; w <= size; w++)
 /* Sideways */
 for (h = 1; h <= size - w; h++)
 {
+_putchar('.');
+}
 for (h = 1; h <= size; h++)
 {
 _putchar('#');
 }
 _putchar('\n');
-}
 }
 }
