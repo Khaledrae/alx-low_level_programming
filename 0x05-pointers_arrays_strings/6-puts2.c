@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_puts - prints characters from a string followed by a new line from a pointer
+ *puts2 - prints characters skipping one from a string pointer
  *@str: the string to print
  *
  */
