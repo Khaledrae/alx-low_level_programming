@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *swap_int - Swaps two integers bruv
  *@*a: first integer
  *@*b: second integer
