@@ -7,9 +7,8 @@
  */
 int _atoi(char *s)
 {
-int sign, num;
-sign = 1;
-num = 0;
+int sign = 1;
+unsigned int num = 0;
 do
 {
 if (*s == '-')
