@@ -12,7 +12,7 @@ while (s[index++])
 {
 l++;
 }
-for (index = l - 1; index >= l/2; index--)
+for (index = l - 1; index >= l / 2; index--)
 {
 a = s[index];
 s[index] = s[l - index - 1];
