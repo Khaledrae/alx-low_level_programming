@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *strlen - entry point
+ *_strlen - entry point
  *@s: The string to weigh
  *
  *Return: The size of the string
