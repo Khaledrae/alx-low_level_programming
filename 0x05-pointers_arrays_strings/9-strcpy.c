@@ -3,6 +3,7 @@
  **_strcpy - main point
  *@src: string to copy
  *@dest: destination
+ *
  *Return: a pointer
  */
 char *_strcpy(char *dest, char *src)
