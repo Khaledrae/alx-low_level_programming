@@ -18,6 +18,6 @@ a = s[index];
 s[index] = s[l - index - 1];
 s[l - index - 1] = a;
 }
-*s = a*;
+*s = a;
 _putchar('\n');
 }
