@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *print_line - Prints a line
  *@n: The legnth of the line
