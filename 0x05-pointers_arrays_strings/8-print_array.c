@@ -1,21 +1,17 @@
 #include "main.h"
 /**
  *print_array - main entry point
- *@n: array
- *@a: number of elements
+ *@a: array
+ *@n: number of elements
  *
  */
 void print_array(int *a, int n)
 {
-int i, l;
-while(*a)
-{
-l++;
-}
+int i;
 for (i = 0; i < n; i++)
 {
-_putchar("%x", a[i]);
-_putchar(',');
+printf("%d", a[i]);
+printf(',');
 }
-_putchar('\n');
+printf('\n');
 }
