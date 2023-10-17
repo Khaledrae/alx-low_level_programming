@@ -14,7 +14,7 @@ l++;
 }
 for (index = l - 1; index >= l/2; index--)
 {
-c = s[index];
+a = s[index];
 s[index] = s[l - index - 1];
 s[l - index - 1] = a;
 }
