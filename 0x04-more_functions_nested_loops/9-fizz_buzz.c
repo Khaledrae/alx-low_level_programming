@@ -27,7 +27,7 @@ printf("%d ", i);
 }
 if (i == 100)
 {
-continue
+continue;
 }
 printf(" ");
 }
