@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "main.c"
+#include "main.h"
 /**
  *main - Entry Point
  *
@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-int i;
-i = 0;
-positive_or_negative(int i);
-
+positive_or_negative(int 5);
 return (0);
 }
