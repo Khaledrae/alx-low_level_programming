@@ -2,8 +2,9 @@
 /**
  * strcat - Concatenates the string pointed to by @src, including the
  * terminating null byte, to the end of the string pointed to by @dest
+ * upto a certain point.
  *
- * @dest: A pponter t the stringto be concatenated upon
+ * @dest: A pointer to the stringto be concatenated upon
  * @src:The source string to be appended to @dest
  *
  * Return: A ponter to the destnation string @dest.
@@ -16,7 +17,7 @@ while (dest[index++])
 {
 dest_len++
 }
-for (index = 0; src[index]; index++)
+for (index = 0; src[index] && index < n; index++)
 {
 dest[dest_len++] = src[index];
 }
